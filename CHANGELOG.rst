@@ -3,12 +3,6 @@
 Release History
 ================
 
-V3.2.1
-------
-
-- Improvement: Officially support Python 3.6.
-- Improvement: Permit use of non-standard characteristics in reserved range (#140)
-
 V3.2.0
 ------
 
