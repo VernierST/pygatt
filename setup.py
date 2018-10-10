@@ -1,5 +1,5 @@
-__title__ = 'pygatt'
-__version__ = '3.2.0+vernier'
+__title__ = 'vernierpygatt'
+__version__ = '3.2.0'
 __license__ = 'Apache License, Version 2.0 and MIT License'
 __copyright__ = 'Copyright 2015 Stratos Inc. and Orion Labs'
 
@@ -17,13 +17,13 @@ setup(
     name=__title__,
     version=__version__,
     description='Python Bluetooth LE (Low Energy) and GATT Library',
-    author='Chris Peplin <github@rhubarbtech.com>',
-    author_email='github@rhubarbtech.com',
+    author='Chris Peplin <github@rhubarbtech.com>, Vernier Software and Technology',
+    author_email='info@vernier.com',
     packages=find_packages(exclude=("tests", "tests.*")),
     package_data={'': ['LICENSE']},
     license="Apache 2.0 and MIT",
     long_description=readme + '\n\n' + changelog,
-    url='https://github.com/peplin/pygatt',
+    url='https://github.com/VernierST/pygatt',
     install_requires=[
         'pyserial',
         'enum-compat'
